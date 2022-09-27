@@ -1,6 +1,5 @@
 /*
    --- Linear Search ---
-
    Big-O = O(n)
 */
 
@@ -28,6 +27,7 @@ console.log(linearSearch([-4, -2, 1, 3, 5, 6, 7, 8, 12], 100));//3
    1. Only will work in sorted array
 
    Big-O = O(logn)
+   For array of '8' values, BS will take only 3 iterations
 */
 console.log('Binary Search')
 function binarySearch(arr, target) {
