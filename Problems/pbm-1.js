@@ -52,3 +52,5 @@ for(let i = lowerNumber; i < higherNumber; i++ ){
            console.log(i)
     }
 }
+
+//Flatten the array

@@ -72,4 +72,26 @@ for(let i = 0; i<= Math.sqrt(n); i++){//100
     }
 }
 
+//Check the chars present or not
+let arr = ['c', 'b', 'a', 'd', 't'];
+let name = 'baat', str = "";
+
+for(let i = 0; i < name.length; i++){
+    if(arr.includes(name[i])){
+        let ele = name[i];
+        let index = arr.indexOf(ele);
+        
+        //Do Avoid the duplicate
+        let str1  = arr.splice(index, 1);
+        str += str1;
+    };
+}
+
+if(name == str){
+    console.log("It's mathcing")
+}
+else{
+    console.log('Not mathcing')
+}
+
 
